@@ -1,0 +1,45 @@
+十二月 02, 2018 9:39:01 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+十二月 02, 2018 9:39:01 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+十二月 02, 2018 10:01:08 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+十二月 02, 2018 10:01:08 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+十二月 02, 2018 10:01:08 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@156ade20')
+十二月 02, 2018 10:01:08 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@3d986b90')
+十二月 02, 2018 10:01:24 上午 org.apache.catalina.core.ApplicationContext log
+INFO: Marking servlet ASevelet as unavailable
+十二月 02, 2018 10:01:24 上午 org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Allocate exception for servlet ASevelet
+java.lang.ClassNotFoundException: day01.ASevelet
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1945)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1788)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClass(DefaultInstanceManager.java:536)
+	at org.apache.catalina.core.DefaultInstanceManager.loadClassMaybePrivileged(DefaultInstanceManager.java:518)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:148)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1127)
+	at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:847)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:135)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2574)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2563)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:722)
+
+十二月 02, 2018 10:28:12 上午 org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+十二月 02, 2018 10:28:12 上午 org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
